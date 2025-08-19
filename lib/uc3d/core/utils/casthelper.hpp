@@ -2,7 +2,7 @@
  * @file casthelper.hpp
  * @brief Explicit, zero-overhead helpers for common numeric casts.
  *
- * All helpers are `static inline` – they disappear after optimisation.
+ * All helpers are `static inline` - they disappear after optimisation.
  * Using them makes every narrowing / widening conversion visible to the
  * compiler and to reviewers, silencing `-Wnarrowing` while staying type-safe.
  *

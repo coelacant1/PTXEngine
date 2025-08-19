@@ -1,4 +1,4 @@
-# uCore3D – C++17 Math & Render Core for Microcontrollers **and** Desktops
+# uCore3D - C++17 Math & Render Core for Microcontrollers **and** Desktops
 
 [![compilecheck](https://github.com/coelacant1/uCore3D/actions/workflows/ci.yml/badge.svg)](https://github.com/coelacant1/uCore3D/actions/workflows/ci.yml)
 
@@ -9,7 +9,7 @@
 
 The same codebase powers hardware **and** a full-speed desktop simulator, so you prototype algorithms on the workstation and drop them onto a board unchanged.
 
-> **Work in progress** — the APIs and structure may change without notice while working on the first major release.
+> **Work in progress** - the APIs and structure may change without notice while working on the first major release.
 >
 > This code is currently being migrated from ProtoTracer to act as a submodule and generalize the functionality for more use cases.
 > - **Project Goals**:

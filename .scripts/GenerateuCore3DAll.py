@@ -13,7 +13,7 @@ from pathlib import Path
 import os
 import sys
 
-# 1. Locate the repo root – two cases
+# 1. Locate the repo root - two cases
 try:
     # We are inside PlatformIO ⇒ PROJECT_DIR exists
     Import("env")                         # pylint: disable=undefined-variable
@@ -46,7 +46,7 @@ def generate() -> int:
         fp.write(
             "/**\n"
             " * @file ucore3dall.hpp (auto-generated)\n"
-            " * @brief Umbrella header – DO NOT EDIT BY HAND.\n"
+            " * @brief Umbrella header - DO NOT EDIT BY HAND.\n"
             " */\n"
             "#pragma once\n\n"
         )
