@@ -27,7 +27,7 @@ public:
      * @brief Shade a point by sampling the vector field’s density.
      * @param sp Surface properties (uses @c sp.uvw.X/Y).
      * @param m  Material expected to be @c MaterialT<VectorField2DParams, VectorField2DShader>.
-     * @return RGB color mapped from sampled density (blue→red). Returns black if out-of-bounds.
+     * @return RGB color mapped from sampled density (blue->red). Returns black if out-of-bounds.
      */
     RGBColor Shade(const SurfaceProperties& sp, const IMaterial& m) const override {
         using VFieldMat = MaterialT<VectorField2DParams, VectorField2DShader>;

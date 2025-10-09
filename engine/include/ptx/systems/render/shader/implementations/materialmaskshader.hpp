@@ -66,7 +66,7 @@ public:
             // InterpolateColors expects factor 0..1
             return RGBColor::InterpolateColors(outerC, shapeC, a);
         } else {
-            // outside the shape → outer material
+            // outside the shape -> outer material
             if (!p.materialOuter) return {0,0,0};
             return p.materialOuter->GetShader()->Shade(surf, *p.materialOuter);
         }

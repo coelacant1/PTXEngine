@@ -7,7 +7,7 @@
  * @file effect.hpp
  * @brief Base post-process effect that operates on a camera's IPixelGroup.
  *
- * Typical call order per frame: @ref SetRatio → @ref Apply.
+ * Typical call order per frame: @ref SetRatio -> @ref Apply.
  * The ratio is a normalized control value in [0,1] that implementations may
  * interpret as time, intensity, or blend factor.
  */

@@ -37,12 +37,12 @@ public:
      * - `ZYX`: Rotate about Z, then Y, then X.
      */
     enum Axis {
-        XYZ, ///< X → Y → Z rotation order.
-        XZY, ///< X → Z → Y rotation order.
-        YXZ, ///< Y → X → Z rotation order.
-        YZX, ///< Y → Z → X rotation order.
-        ZXY, ///< Z → X → Y rotation order.
-        ZYX  ///< Z → Y → X rotation order.
+        XYZ, ///< X -> Y -> Z rotation order.
+        XZY, ///< X -> Z -> Y rotation order.
+        YXZ, ///< Y -> X -> Z rotation order.
+        YZX, ///< Y -> Z -> X rotation order.
+        ZXY, ///< Z -> X -> Y rotation order.
+        ZYX  ///< Z -> Y -> X rotation order.
     };
 
     /**

@@ -28,7 +28,7 @@ public:
         (void)m;
 
         Vector3D n = Vector3D(surf.normal).UnitSphere();   // normalize
-        n = (n + 1.0f) * 0.5f * 255.0f;                    // [-1,1] → [0,1] → [0,255]
+        n = (n + 1.0f) * 0.5f * 255.0f;                    // [-1,1] -> [0,1] -> [0,255]
         n = n.Constrain(0.0f, 255.0f);                     // clamp to byte range
 
         return RGBColor(uint8_t(n.X), uint8_t(n.Y), uint8_t(n.Z));

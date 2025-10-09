@@ -12,7 +12,7 @@
  * @brief Rectangle-Rectangle overlap with AABB fast path and SAT for rotated cases.
  */
 bool Overlap2D::Overlaps(const Rectangle2D& a, const Rectangle2D& b){
-    // Fast path: both rectangles ~axis-aligned → AABB overlap
+    // Fast path: both rectangles ~axis-aligned -> AABB overlap
     if (Mathematics::IsClose(a.GetRotation(), 0.0f, 0.05f) &&
         Mathematics::IsClose(b.GetRotation(), 0.0f, 0.05f)){
         Shape::Bounds ba = a.GetBounds();

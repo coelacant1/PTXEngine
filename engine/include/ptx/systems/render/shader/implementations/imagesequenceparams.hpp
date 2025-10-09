@@ -16,8 +16,8 @@
  * - @ref sequence : Non-owning pointer to the sequence to sample. If nullptr, sampling is disabled.
  * - @ref hueAngle : Hue rotation in degrees applied to sampled colors.
  * - @ref useUV    : Sampling space selector:
- *                   - true  → sample using surface UVs (e.g., sp.uvw).
- *                   - false → sample using surface position XY.
+ *                   - true  -> sample using surface UVs (e.g., sp.uvw).
+ *                   - false -> sample using surface position XY.
  */
 struct ImageSequenceParams {
     ImageSequence* sequence = nullptr;  ///< Non-owning; must outlive the material using it.
